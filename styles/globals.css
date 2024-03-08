@@ -40,3 +40,8 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+
+section {
+  margin: 60px 20px 80px;
+}

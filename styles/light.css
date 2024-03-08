@@ -9,4 +9,105 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  background-color: #FFF1F7;
+  --accent-color: #353430;
+  --padding-buttom: 0px 13px;
+  --title-color: #FFC2E6;    
+  --dark-text-color: #000028;
+  --light-text-color: #353430;
+  --light-accent-color: #FF8DCB;
+}
+
+/* Остальные стили */
+
+@media (prefers-color-scheme: light) {
+  :root {
+      /* Дублируем переменные светлой темы */ 
+      --accent-color: #353430;
+      --padding-buttom: 0px 13px;
+      --title-color: #FFC2E6;    
+      --dark-text-color: #000028;
+      --light-text-color: #353430;
+      --light-accent-color: #FF8DCB;
+  }
+
+  .page {
+    background-color: #FFF1F7;
+    }
+
+  .decorated-zone {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+  .header-title {
+    text-shadow: 4px 4px 0 #FF0070;
+  }
+
+  .title-decor {
+    background-color: var(--light-accent-color);
+  }
+
+  .how__list {
+  background-color: var(--light-accent-color);
+  }
+
+  a {
+    text-shadow: 2px 2px 0 var(--light-accent-color);
+  }
+}
+
+.theme_light .decorated-zone {
+    background-image: url(../images/cover-image-light.png);
+}
+
+.theme_light .title {
+    text-shadow: 4px 4px 0 #FF0070;
+}
+
+.theme_light .title-decor {
+    background-color: var(--light-accent-color);
+}
+
+.theme_light .how__list {
+    background-color: var(--light-accent-color);
+}
+
+.theme_light a {
+  text-shadow: 2px 2px 0 var(--light-accent-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Дублируем переменные светлой темы */ 
+    background-color: #00183F;
+    --accent-color: #ff0070;
+    --padding-buttom: 0px 13px;
+    --title-color: #DB00FF;
+    --dark-text-color: #000028;
+    --light-text-color: #F1B2CE;
+}
+
+.theme-dark .page {
+  background-color: #00183F;
+  }
+
+  .theme-dark .decorated-zone {
+  background-image: url(../images/cover-image-dark.png);
+}
+
+.theme-dark .title {
+  text-shadow: 4px 4px 0 #FF0070;
+}
+
+.theme-dark .title-decor {
+  background-color: var(--accent-color);
+}
+
+.theme-dark .how__list {
+background-color: var(--accent-color);
+}
+
+.theme-dark a {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
 }
