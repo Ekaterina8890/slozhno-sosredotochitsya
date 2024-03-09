@@ -27,6 +27,7 @@
 
 .theme_dark .title-decor {
   background-color: var(--accent-color);
+  color: var(--dark-text-color);
 }
 
 .theme_dark .how__list {
@@ -35,6 +36,33 @@
 
 .theme_dark a {
 text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.theme_dark .rec {
+  grid-column: 9;
+  background-color: transparent;
+  color: var(--accent-color);
+  font-size: 18px;
+  line-height: 118%;
+  align-content: center;
+  font-family: inherit;
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  margin-block-start: 1.4rem;
+  margin-inline-start: 2rem;
+}
+
+.theme_dark .rec::after {
+  content: "";
+  inline-size: 6px;
+  block-size: 6px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  position: absolute;
+  inset-block-start: 0.4rem;
+  inset-inline-start: 2.8rem;
+  box-shadow: 0 0 3px 3px var(--accent-color);
 }
 
 
