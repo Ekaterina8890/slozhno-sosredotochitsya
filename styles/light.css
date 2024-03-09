@@ -59,6 +59,10 @@
     color: var(--light-text-color);
   }
 
+    .title {
+    text-shadow: 4px 4px 0 #FF0070;
+}
+
   .how__list {
   background-color: var(--light-accent-color);
   }
