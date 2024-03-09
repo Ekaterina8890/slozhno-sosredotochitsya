@@ -90,8 +90,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root 
-  {
+  :root {
     background-color: #00183F;
     --accent-color: #ff0070;
     --title-color: #DB00FF;
