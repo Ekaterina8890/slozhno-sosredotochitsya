@@ -39,12 +39,24 @@
     background-image: url(../images/cover-image-light.png);
   }
 
+    .rec {
+    font-size: 0;
+  }
+
+  .rec::after {
+    content: "";
+    inline-size: 0px;
+    block-size: 0px;
+    box-shadow: 0 0 0px 0px var(--accent-color);
+  }
+
   .header-title {
     text-shadow: 4px 4px 0 #FF0070;
   }
 
   .title-decor {
     background-color: var(--light-accent-color);
+    color: var(--light-text-color);
   }
 
   .how__list {
@@ -60,12 +72,24 @@
     background-image: url(../images/cover-image-light.png);
 }
 
+.theme_light .rec {
+  font-size: 0;
+}
+
+.theme_light .rec::after {
+  content: "";
+  inline-size: 0px;
+  block-size: 0px;
+  box-shadow: 0 0 0px 0px var(--accent-color);
+}
+
 .theme_light .title {
     text-shadow: 4px 4px 0 #FF0070;
 }
 
 .theme_light .title-decor {
     background-color: var(--light-accent-color);
+    color: var(--light-text-color);
 }
 
 .theme_light .how__list {
