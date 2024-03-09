@@ -2,7 +2,6 @@
   background-color: #FFF1F7;
   --accent-color: #353430;
   --dark-text-color: #000028;
-  --title-color: #FFC2E6;    
   --light-text-color: #353430;
   --light-accent-color: #FF8DCB;
 }
@@ -11,7 +10,6 @@
   :root {
       --accent-color: #353430;
       --dark-text-color: #000028;
-      --title-color: #FFC2E6;    
       --light-text-color: #353430;
       --light-accent-color: #FF8DCB;
   }
