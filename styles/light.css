@@ -10,12 +10,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-      --accent-color: #353430;    
+      --accent-color: #353430;
+      --title-color: #FFC2E6;    
       --dark-text-color: #000028;
       --light-text-color: #353430;
       --light-accent-color: #FF8DCB;
       --button-color: rgba(50, 49, 45, 0.4);
-          --title-color: #FFC2E6;
   }
 
   .page {
@@ -55,6 +55,9 @@
   .title {
     text-shadow: 4px 4px 0 var(--light-accent-color);
   }
+
+  .header__theme-menu-list {
+    margin-block-start: 63px;
 }
 
   .title-decor {
@@ -69,6 +72,7 @@
   a {
     text-shadow: 2px 2px 0 var(--light-accent-color);
   }
+}
 }
 
   .theme_dark .rec {
@@ -203,4 +207,8 @@ background-color: var(--accent-color);
     margin-block-start: 0.8rem;
     margin-inline-start: -3.9rem;
   }
+
+  .theme_dark .header__theme-menu-list {
+    margin-block-start: 42px;
+}
 }
