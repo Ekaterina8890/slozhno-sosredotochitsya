@@ -11,11 +11,11 @@
 @media (prefers-color-scheme: light) {
   :root {
       --accent-color: #353430;
-      --title-color: #FFC2E6;    
       --dark-text-color: #000028;
       --light-text-color: #353430;
       --light-accent-color: #FF8DCB;
       --button-color: rgba(50, 49, 45, 0.4);
+      --title-color: #FFC2E6;   
   }
 
   .page {
