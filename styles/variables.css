@@ -1,8 +1,8 @@
 .theme-dark .page {
     background-color: #00183F;
     --accent-color: #ff0070;
-    --padding-buttom: 0px 13px;
     --title-color: #DB00FF;
     --dark-text-color: #000028;
     --light-text-color: #F1B2CE;
+    --button-color: rgba(255, 0, 112, 0.5);
 }
