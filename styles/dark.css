@@ -1,58 +1,9 @@
 .page.theme_dark {
   --accent-color: #ff0070;
-  --padding-buttom: 0px 13px;
   --title-color: #DB00FF;
   --dark-text-color: #000028;
   --light-text-color: #F1B2CE;
   background-color: #00183F;
+  --button-color: rgba(255, 0, 112, 0.4);
 }
-
-.theme_dark .decorated-zone {
-  background-image: url(../images/cover-image-dark.png);
-}
-
-.theme_dark .header-title {
-  text-shadow: 4px 4px 0 var(--accent-color);
-}
-
-.theme_dark .title-decor {
-  background-color: var(--accent-color);
-  color: var(--dark-text-color);
-}
-
-.theme_dark .how__list {
-  background-color: var(--accent-color);
-}
-
-.theme_dark a {
-text-shadow: 2px 2px 0 var(--accent-color);
-}
-
-.theme_dark .rec {
-  grid-column: 9;
-  background-color: transparent;
-  color: var(--accent-color);
-  font-size: 18px;
-  line-height: 118%;
-  align-content: center;
-  font-family: inherit;
-  position: relative;
-  display: block;
-  text-transform: uppercase;
-  margin-block-start: 1.4rem;
-  margin-inline-start: 2rem;
-}
-
-.theme_dark .rec::after {
-  content: "";
-  inline-size: 6px;
-  block-size: 6px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
-  position: absolute;
-  inset-block-start: 0.4rem;
-  inset-inline-start: 2.8rem;
-  box-shadow: 0 0 3px 3px var(--accent-color);
-}
-
 
