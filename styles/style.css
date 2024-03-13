@@ -271,11 +271,11 @@ a {
 }
 
 .header__theme-menu-button:disabled {
-  border: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--button-color);
+  outline: 1px solid var(--button-color);
 }
 
 a:hover {
@@ -289,7 +289,7 @@ a:hover {
 
 a:focus-visible {
   outline: none;
-  border: 1px solid var(--light-text-color);
+  outline: 1px solid var(--light-text-color);
 }
 
 
