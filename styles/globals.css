@@ -44,3 +44,8 @@ a {
 section {
   margin: 60px 20px 80px;
 }
+
+html {
+  margin: 0;
+  padding: 0;
+}
