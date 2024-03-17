@@ -194,7 +194,7 @@ main li:not(:last-of-type) {
 }
 
 .how-title {
-  margin: 0 0 4.4vw;
+  margin: 0px 0px 48px;
 }
 
 .how__list {
@@ -266,7 +266,6 @@ main li:not(:last-of-type) {
   aspect-ratio: 5 / 3;
 }
 
-
 a {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
@@ -295,7 +294,7 @@ a:focus-visible {
 }
 
 
-@media (width <= 768px) {
+@media (768px <= width < 1024px) {
   .header {
     padding-bottom: 46px;
   }
@@ -369,7 +368,209 @@ a:focus-visible {
   }
 }
 
-@media (width < 768px) {
+@media (768px <= width < 1024px) {
+  .header {
+    padding-bottom: 46px;
+  }
+
+  .header__theme-menu {
+    grid-column: 9;
+    grid-row: 2;
+  }
+
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 147px;
+    margin-inline-end: 20px;
+    gap: 13px;
+  }
+
+  .rec {
+    margin-inline-start: 5px;
+  }
+
+  .header-title {
+    grid-column: span 8;
+    grid-row: 3;
+    margin: 0;
+    margin-block-start: 147px
+  }
+
+  .title-content {
+    grid-column: 5/10;
+    grid-row: 4;
+    margin: 8.3rem 1.2rem 8.45rem 2.7rem;
+  }
+
+  .what_content {
+    grid-row: 2;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .why {
+    gap: 0 23px;
+  }
+
+  .how {
+    gap: 0 23px;
+  }
+
+  .how-title {
+    margin: 0 0 9.4vw;
+  }
+
+  .how_content {
+    margin-block-start: -52px;
+  }
+
+  .how_content li:not(:last-child) {
+    padding-block-end: 20px;
+  }
+
+  .gallary-picture {
+    gap: 15px 21px;
+  }
+
+  .footer-title {
+    aspect-ratio: 2.25 / 3;
+    margin-block-start: -3%;
+    text-align: center;
+  }
+}
+
+@media (375px <= width < 768px) {
+  
+  section {
+    margin: 40px 10px 50px;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, auto);
+    padding-inline: 10px;
+    padding-bottom: 0px;
+  }
+
+  .rec {
+    grid-row: 1;
+    grid-column: 1;
+    margin-block-start: 11px;
+    margin-inline-end: 30px;
+  }
+
+  .decorated-zone:after {
+    margin-block-start: -0.65rem;
+    margin-inline-end: -0.65rem;
+  }
+  
+  .decorated-zone:before {
+    margin-block-end: -0.65rem;
+    margin-inline-start: -0.65rem;
+  }
+
+  .header__theme-menu {
+    grid-row: 2;
+    grid-column: 1;
+    margin-block-end: 18vw;
+  }
+
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: end;
+    margin-block-start: 41px;
+    margin-inline-end: 0px;
+  }
+
+  .header-title {
+    grid-row: 3;
+    grid-column: 1;
+    margin: 0;
+    inset-block-start: 0vw;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    line-height: 95.7px;
+  }
+
+  .title-content {
+    grid-row: 4;
+    grid-column: 1;
+    margin: 3.6rem 0 4.2rem
+  }
+
+  .text-section {
+    line-height: 23.4px;
+  }
+
+  .why_content li:not(:last-of-type) {
+    padding-block-end: 19px;
+  }
+
+  .why {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .what {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .what_content {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .how {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .how-title {
+    margin: 0 0 6vw;
+  }
+
+  .how_content li:not(:last-child) {
+    padding-block-end: 20px;
+  }
+
+  .gallary {
+    gap: 10px;
+  }
+
+  .gallary-picture {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-title {
+    aspect-ratio: 1.75 / 3;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
+  .footer.decorated-zone:after {
+    margin-block-start: -1.45rem;
+    margin-inline-end: -0.65rem;
+  }
+  
+  .footer.decorated-zone:before {
+    margin-block-end: -0.95rem;
+    margin-inline-start: -0.65rem;
+  }
+  
+}
+
+@media (width < 375px) {
   
   section {
     margin: 40px 10px 50px;
@@ -530,9 +731,10 @@ a:focus-visible {
     position: relative;
     display: block;
     text-transform: uppercase;
-    margin-block-start: 1.4rem;
-    margin-inline-start: 0.3rem;
+    margin-block-start: 11px;
+    margin-inline-end: 30px;
   }
+}
 }
 
 
