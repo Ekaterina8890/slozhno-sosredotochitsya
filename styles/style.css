@@ -720,7 +720,6 @@ a:focus-visible {
 }
 
 @media (768px <= width < 1024px) {
-
   .theme_dark .rec {
     background-color: transparent;
     color: var(--accent-color);
@@ -734,7 +733,6 @@ a:focus-visible {
     margin-block-start: 11px;
     margin-inline-end: 30px;
   }
-}
 }
 
 
