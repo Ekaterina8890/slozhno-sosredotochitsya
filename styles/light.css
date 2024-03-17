@@ -46,24 +46,38 @@
   color: var(--light-text-color);
 }
 
+.header__theme-menu-list {
+  margin-block-start: 20px;
+}
 
-@media (width <= 768px) {
+@media (768px <= width < 1024px) {
   .title {
     text-shadow: 4px 4px 0 var(--light-accent-color);
   }
 
   .header__theme-menu-list {
     margin-block-start: 170px;
-}
+  }
 }
 
-@media (width <= 768px) {
+@media (375px <= width < 768px) {
+  .header__theme-menu-list {
+    margin-block-start: 64px;
+  }
+
   .title {
     text-shadow: 4px 4px 0 var(--light-accent-color);
   }
+}
 
+@media (width <= 375px) {
   .header__theme-menu-list {
-    margin-block-start: 63px;
+    margin-block-start: 64px;
+  }
+
+  .title {
+    text-shadow: 4px 4px 0 var(--light-accent-color);
+  }
 }
 
   .how__list {
@@ -73,7 +87,6 @@
   a {
     text-shadow: 2px 2px 0 var(--light-accent-color);
   }
-}
 }
 
   .theme_dark .rec {
@@ -87,8 +100,8 @@
     position: relative;
     display: block;
     text-transform: uppercase;
-    margin-block-start: 1.4rem;
-    margin-inline-start: 2rem;
+    margin-block-start: 23px;
+    margin-inline-end: 49px;
 }
 
 .theme_dark .rec:after {
@@ -152,6 +165,7 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
+
 .theme_dark .title {
   text-shadow: 4px 4px 0 #FF0070;
 }
@@ -171,28 +185,61 @@ background-color: var(--accent-color);
 .theme_dark a {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
-
 }
 
-
-@media (width <= 768px) {
+@media (768px <= width < 1024px) {
   .theme_light .title {
     text-shadow: 4px 4px 0 var(--light-accent-color);
   }
 
   .theme_light .header__theme-menu-list {
     margin-block-start: 170px;
-    margin-inline-end: 19px;
   }
 }
 
+@media (375px <= width < 768px) {
+  .theme_light .title {
+    text-shadow: 4px 4px 0 var(--light-accent-color);
+}
 
+  .theme_light .header__theme-menu-list {
+    margin-block-start: 64px;
+  }
+}
 
-@media (width <= 768px) {
+@media (width <= 375px) {
+  .theme_light .title {
+    text-shadow: 4px 4px 0 var(--light-accent-color);
+}
+
+  .theme_light .header__theme-menu-list {
+    margin-block-start: 64px;
+  }
+}
+
+@media (768px <= width < 1024px) {
+  .theme_dark .header__theme-menu-list {
+    margin-block-start: 147px;
+  }
+}
+
+@media (375px <= width < 768px) {
 
   .theme_dark .rec {
-    margin-block-start: 0.8rem;
-    margin-inline-start: -3.9rem;
+    margin-block-start: 11px;
+    margin-inline-start: -62px;
+  }
+
+  .theme_dark .header__theme-menu-list {
+    margin-block-start: 42px;
+}
+}
+
+@media (width < 375px) {
+
+  .theme_dark .rec {
+    margin-block-start: 11px;
+    margin-inline-start: -62px;
   }
 
   .theme_dark .header__theme-menu-list {
