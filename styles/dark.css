@@ -43,7 +43,6 @@ background-color: var(--accent-color);
 }
 }
 
-
 .theme_dark .header {
   background-image: url(../images/cover-image-dark.png);
 }
@@ -68,27 +67,4 @@ background-color: var(--accent-color);
 
 .theme_dark.page {
   background-image: url(../images/cover-image-dark.png);
-}
-
-  .theme_dark .rec {
-    font-size: 18px;
-}
-
-.theme_dark .rec:after {
-  inline-size: 8px;
-  block-size: 8px;
-  box-shadow: 0 0 4px 2px var(--accent-color);
-}
-
-
-@media (width < 375px) {
-
-  .theme_dark .header__theme-menu-list {
-    margin-block-start: 42px;
-}
-}
-
-  .theme_dark .header__theme-menu-list {
-    margin-block-start: 42px;
-}
 }
