@@ -404,7 +404,7 @@ a:focus-visible {
     gap: 12px;
     justify-content: center;
     margin-inline-end: 0px;
-    margin-block-start: 3rem;
+    margin-block-start: 4.7rem;
   }
 
   .header-title {
@@ -415,7 +415,7 @@ a:focus-visible {
 
   .title-content {
     grid-column: 1;
-    margin: 6.6rem 0 6.2rem;
+    margin: 3.4rem 0 4.2rem;
   }
 
   .why_content li:not(:last-of-type) {
