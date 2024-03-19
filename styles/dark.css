@@ -71,60 +71,22 @@ background-color: var(--accent-color);
 }
 
   .theme_dark .rec {
-    grid-column: 9;
-    background-color: transparent;
-    color: var(--accent-color);
     font-size: 18px;
-    line-height: 118%;
-    align-content: center;
-    font-family: inherit;
-    position: relative;
-    display: block;
-    text-transform: uppercase;
-    margin-block-start: 23px;
-    margin-inline-end: 49px;
 }
 
 .theme_dark .rec:after {
-  content: "";
   inline-size: 8px;
   block-size: 8px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
-  position: absolute;
-  inset-block-start: 0.4rem;
-  inset-inline-start: 2.8rem;
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-@media (768px <= width < 1024px) {
-  .theme_dark .rec {
-    background-color: transparent;
-    color: var(--accent-color);
-    font-size: 18px;
-    line-height: 118%;
-    align-content: center;
-    font-family: inherit;
-    position: relative;
-    display: block;
-    text-transform: uppercase;
-  }
-}
-
-@media (375px <= width < 768px) {
-
-  .theme_dark .rec {
-    margin-block-start: 11px;
-    inset-inline-start: -62px;
-  }
-}
 
 @media (width < 375px) {
 
-  .theme_dark .rec {
-    margin-block-start: 11px;
-    margin-inline-start: -62px;
-  }
+  .theme_dark .header__theme-menu-list {
+    margin-block-start: 42px;
+}
+}
 
   .theme_dark .header__theme-menu-list {
     margin-block-start: 42px;
