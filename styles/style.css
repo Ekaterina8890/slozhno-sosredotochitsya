@@ -404,7 +404,7 @@ a:focus-visible {
     gap: 12px;
     justify-content: center;
     margin-inline-end: 0px;
-    margin-block-start: 4.7rem;
+    margin-block-start: 0.4rem;
   }
 
   .header-title {
@@ -600,6 +600,15 @@ a:focus-visible {
   block-size: 0px;
   box-shadow: 0 0 0px 0px var(--accent-color);
 }
+
+.theme_dark .rec {
+  font-size: 18px;
+}
+
+.theme_dark .rec:after {
+  inline-size: 8px;
+  block-size: 8px;
+  box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
 
