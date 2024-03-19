@@ -63,8 +63,3 @@ background-color: var(--accent-color);
 .theme_dark a {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
-
-
-.theme_dark.page {
-  background-image: url(../images/cover-image-dark.png);
-}
