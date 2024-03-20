@@ -43,10 +43,6 @@ background-color: var(--accent-color);
 }
 }
 
-.theme_dark .header {
-  background-image: url(../images/cover-image-dark.png);
-}
-
 .theme_dark .title {
   text-shadow: 4px 4px 0 var(--accent-color);
 }
