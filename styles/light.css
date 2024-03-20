@@ -33,19 +33,11 @@
     color: var(--light-text-color);
 }
 
-@media (768px <= width < 1024px) {
+@media (width < 1024px) {
   .title {
     text-shadow: 4px 4px 0 var(--light-accent-color);
   }
-}
 
-@media (375px <= width < 768px) {
-  .title {
-    text-shadow: 4px 4px 0 var(--light-accent-color);
-  }
-}
-
-@media (width <= 375px) {
   .title {
     text-shadow: 4px 4px 0 var(--light-accent-color);
   }
@@ -81,21 +73,9 @@
   text-shadow: 2px 2px 0 var(--light-accent-color);
 }
 
-@media (768px <= width < 1024px) {
+@media (width < 1024px) {
   .theme_light .title {
     text-shadow: 4px 4px 0 var(--light-accent-color);
   }
-}
-
-@media (375px <= width < 768px) {
-  .theme_light .title {
-    text-shadow: 4px 4px 0 var(--light-accent-color);
-}
-}
-
-@media (width <= 375px) {
-  .theme_light .title {
-    text-shadow: 4px 4px 0 var(--light-accent-color);
-}
 }
 
