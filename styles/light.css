@@ -41,6 +41,7 @@
 
   .how__list {
     background-color: var(--light-accent-color);
+    color: var(--light-text-color);
   }
 
   a {
@@ -63,6 +64,7 @@
 
 .theme_light .how__list {
     background-color: var(--light-accent-color);
+    color: var(--light-text-color);
 }
 
 .theme_light a {
