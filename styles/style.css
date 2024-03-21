@@ -186,12 +186,16 @@ main li:not(:last-of-type) {
   gap: 19px;
 }
 
+.how .title-section {
+  grid-row: 1;
+  grid-column: 1;
+}
+
 .how_content {
   grid-row: 1/2;
   grid-column: 2;
   display: grid;
   gap: 19px;
-
 }
 
 .how__list {
