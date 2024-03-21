@@ -1,26 +1,31 @@
 .page.theme_dark {
+  --background-color: #00183F;
   --accent-color: #ff0070;
   --title-color: #DB00FF;
-  --dark-text-color: #000028;
-  --light-text-color: #F1B2CE;
-  --background-color: #00183F;
-  --button-color: rgba(255, 0, 112, 0.4);
+  --heading-text-color: #000028;
+  --main-text-color: #F1B2CE;
+  --button-color: rgba(255, 0, 112, 0.5);
   --background-image: url(../images/cover-image-dark.png);
+  --title-accent-color: #ff0070;
+  --title-background-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --accent-color: #ff0070;
-  --title-color: #DB00FF;
-  --dark-text-color: #000028;
-  --light-text-color: #F1B2CE;
-  --background-color: #00183F;
-  --button-color: rgba(255, 0, 112, 0.4);
-  --background-image: url(../images/cover-image-dark.png);
+    --background-color: #00183F;
+    --accent-color: #ff0070;
+    --title-color: #DB00FF;
+    --heading-text-color: #000028;
+    --main-text-color: #F1B2CE;
+    --button-color: rgba(255, 0, 112, 0.5);
+    --background-image: url(../images/cover-image-dark.png);
+    --title-accent-color: #ff0070;
+    --title-background-color: #ff0070;
 }
 }
 
 .theme_dark .rec {
+  display: block;
   font-size: 18px;
 }
 
@@ -30,19 +35,9 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-.theme_dark .title {
-  text-shadow: 4px 4px 0 var(--accent-color);
-}
-
-.theme_dark .title-decor {
-  background-color: var(--accent-color);
-  color: var(--dark-text-color);
-}
-
-.theme_dark .how__list {
-  background-color: var(--accent-color);
-}
-
-.theme_dark a {
-  text-shadow: 2px 2px 0 var(--accent-color);
+@media (width < 1024px) {
+  .theme_dark .title {
+    --title-accent-color: #ff0070;
+    text-shadow: 4px 4px 0 var(--title-accent-color);
+  }
 }
