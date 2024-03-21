@@ -115,7 +115,7 @@ main li:not(:last-of-type) {
 }
 
 .title {
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--title-accent-color);
   color: var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-family: inherit;
@@ -130,9 +130,9 @@ main li:not(:last-of-type) {
 .title-decor {
   font-size: 18px;
   font-family: inherit;
-  background-color: var(--accent-color);
+  background-color: var(--title-background-color);
   font-weight: bold;
-  color: var(--dark-text-color);
+  color: var(--heading-text-color);
   line-height: 23.4px;
 }
 
@@ -149,7 +149,7 @@ main li:not(:last-of-type) {
   font-family: inherit;
   background-color: transparent;
   font-weight: 400;
-  color: var(--light-text-color);
+  color: var(--main-text-color);
   margin-block-start: 10px;
   line-height: 23.4px;
 }
@@ -199,8 +199,8 @@ main li:not(:last-of-type) {
 }
 
 .how__list {
-  color: var(--dark-text-color);
-  background-color: var(--accent-color);
+  color: var(--heading-text-color);
+  background-color: var(--title-background-color);
   font-family: inherit;
   font-size: 18px;
   font-weight: 400;
@@ -264,7 +264,7 @@ main li:not(:last-of-type) {
 
 a {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--title-background-color);
 }
 
 .header__theme-menu-button:disabled {
@@ -276,7 +276,7 @@ a {
 }
 
 a:hover {
-  border-bottom: 1px solid var(--light-text-color);
+  border-bottom: 1px solid var(--main-text-color);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -286,7 +286,7 @@ a:hover {
 
 a:focus-visible {
   outline: none;
-  border: 1px solid var(--light-text-color);
+  border: 1px solid var(--main-text-color);
 }
 
 
