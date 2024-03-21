@@ -2,8 +2,10 @@
     --background-color: #00183F;
     --accent-color: #ff0070;
     --title-color: #DB00FF;
-    --dark-text-color: #000028;
-    --light-text-color: #F1B2CE;
+    --heading-text-color: #000028;
+    --main-text-color: #F1B2CE;
     --button-color: rgba(255, 0, 112, 0.5);
     --background-image: url(../images/cover-image-dark.png);
+    --title-accent-color: #ff0070;
+    --title-background-color: #ff0070;
 }
